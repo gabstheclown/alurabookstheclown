@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-fundo: #F5F5F5; /* Cor de fundo neutra e suave */
+    --branco: #FFFFFF; /* Branco puro para destacar elementos */
+    --laranja: #7F8C8D; /* Cinza escuro neutro, mais tranquilo */
+    --azul-gradiente: linear-gradient(97.54deg, #BDC3C7 35.49%, #95A5A6 165.37%); /* Tons suaves de cinza no gradiente */
+    --azul: #2C3E50; /* Azul-escuro para transmitir confiança */
+    --font-principal: "Poppins";
+    --font-secondary: "Josefin Sans";
+    --black: #2E2E2E; /* Preto mais suave para textos */
+    --cinza: #7F8C8D; /* Cinza moderado para botões ou elementos secundários */
+    --cinza-claro: #BDC3C7; /* Cinza claro para áreas de destaque leve */
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 1em;
+    font-weight: 400;
+}
